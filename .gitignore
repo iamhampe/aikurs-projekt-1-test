@@ -1,1 +1,13 @@
-*.csv
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Generated output
+output/*.csv
+
+# VS Code
+.vscode/
