@@ -1,6 +1,16 @@
+# Datahantering
 pandas
 numpy
+
+# Maskininlärning
 scikit-learn
+
+# Spara modeller
 joblib
+
+# Visualisering
 matplotlib
 seaborn
+
+# Valfri modell, används bara om installerad
+xgboost

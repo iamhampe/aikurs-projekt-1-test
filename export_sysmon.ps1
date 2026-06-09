@@ -1,13 +1,9 @@
-# Exportera Sysmon-loggar
+# Exporterar Sysmon-loggar från Windows Event Viewer
 
 Get-WinEvent `
--LogName "Microsoft-Windows-Sysmon/Operational" |
-
+    -LogName "Microsoft-Windows-Sysmon/Operational" |
 Select-Object `
-TimeCreated,
-Id,
-Message |
-
+    TimeCreated, Id, Message |
 Export-Csv `
-"..\data\raw\sysmon_logs.csv" `
--NoTypeInformation
+    "..\data\raw\sysmon_logs.csv" `
+    -NoTypeInformation
