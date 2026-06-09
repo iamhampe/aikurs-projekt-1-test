@@ -1,5 +1,5 @@
 # %%
-RAW_DATA = "data/raw/security_logs.csv"
+RAW_DATA = "data/raw/sysmon_logs.csv"
 
 PROCESSED_DATA = "data/processed/processed_logs.csv"
 
